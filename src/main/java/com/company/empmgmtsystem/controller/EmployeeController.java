@@ -23,6 +23,7 @@ public class EmployeeController {
     @GetMapping
     public List<Employee> getAllEmployees() {
         return employeeService.getAllEmployees();
+
     }
 
     @GetMapping("/{id}")
